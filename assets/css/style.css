@@ -18,6 +18,10 @@ hr {
 	background-color: #FA8D62;
 }
 
+h3 {
+	text-align: center;
+}
+
 .navbar {
 	background-color: #2B616D;
 }
@@ -27,6 +31,21 @@ hr {
 	padding-right: 5px;
 	padding-left: 5px;
 	background: #2B616D;
+}
+
+.form-group {
+	height: 75%;
+	width: 75%
+}
+
+.thumbnail {
+	background-color: #2B616D;
+	border: solid #2B616D;
+}
+
+.project-icon {
+	width: 315%;
+	height: 143%;
 }
 
 #nav-links{
@@ -51,11 +70,6 @@ hr {
   margin-left: 50px;	
   height: 75px;
   padding-top: 25px;
-}
-
-.form-group {
-	height: 75%;
-	width: 75%
 }
 
 #connect {
@@ -108,11 +122,6 @@ hr {
 	margin-bottom: 5px;
 }
 
-.thumbnail {
-	background-color: #2B616D;
-	border: solid #2B616D;
-}
-
 #thumbnail {
   position: relative;
   float: left;
@@ -121,26 +130,7 @@ hr {
 
 }
 
-.project-icon {
-	width: 315%;
-	height: 143%;
-}
-
-h3 {
-	text-align: center;
-}
-
-
 @media screen and (max-width: 960px) {
-	#navbar {
-		position: static;
-	}
-
-	#logo {
-		width: 100%;
-		text-align: center;
-	}
-
 	li {
 		float: left;
 		width: 33%;
@@ -149,18 +139,34 @@ h3 {
 
 	h4 {
 		right: 35px;
+	}
+
+	#navbar {
+		position: static;
+	}
+
+	#logo {
+		width: 100%;
+		text-align: center;
 	}
 
 	#connect
 	#aboutme, #porfolio {
 		margin: 2%;
 	}
-	
-
-
 }
 
 @media screen and (max-width: 768px) {
+	li {
+		float: left;
+		width: 33%;
+		text-align: center;
+	}
+
+	h4 {
+		right: 35px;
+	}
+
 	#navbar {
 		position: static;
 	}
@@ -168,17 +174,6 @@ h3 {
 	#logo {
 		width: 100%;
 		text-align: center;
-	}
-
-	li {
-		float: left;
-		width: 33%;
-		text-align: center;
-				
-	}
-
-	h4 {
-		right: 35px;
 	}
 
 	#connect
@@ -188,15 +183,6 @@ h3 {
 }
 
 @media screen and (max-width: 640px) {
-	#navbar {
-		position: static;
-	}
-
-	#logo {
-		width: 100%;
-		text-align: center;
-	}
-
 	li {
 		float: left;
 		width: 33%;
@@ -207,11 +193,23 @@ h3 {
 		right: 35px;
 	}
 
+	#navbar {
+		position: static;
+	}
+
+	#logo {
+		width: 100%;
+		text-align: center;
+		margin-left: 0;
+	}
+
 	#connect
 	#aboutme, #porfolio {
 		margin: 2%;
 	}
 
-	.
+	.navbar-header{
+		padding: 0;
+	}
 }
 
