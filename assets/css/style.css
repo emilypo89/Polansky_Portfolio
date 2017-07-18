@@ -1,0 +1,233 @@
+body {
+	background: url('../images/seigaiha/seigaiha.png') repeat;
+	/*background: #FFF;*/
+	width: 100%;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+textarea {
+	height: 75%;
+	width: 75%;
+}
+
+button {
+	margin-left: 5%
+}
+
+hr {
+	background-color: #FA8D62;
+}
+
+a{
+	color: #fff;
+}
+
+.navbar {
+	background-color: #2B616D;
+}
+
+.navbar-header {
+	height: 75px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background: #2B616D;
+}
+
+#nav-links{
+	margin-right: 50px;
+	padding-top: 15px;
+	font-size: 20px;
+	color: #fff;
+}
+
+#logo {
+	background-color: #FA8D62;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 50px;	
+  height: 75px;
+  padding-top: 25px;
+}
+
+.form-group {
+	height: 75%;
+	width: 75%
+}
+
+#connect {
+	background-color: #666;
+	font-size: 12px;
+	background-color: #B2DBD5;
+	color: #2B616D;
+	border: solid 5px #FA8D62;
+	border-radius: 25px;
+}
+
+#footer {
+	height: 30%
+	font-size: 12px;
+  	color: #fff;
+  	color: #ccc;
+  	text-align: center;
+  	background-color: #2B616D;
+  	border-top: 8px solid #FA8D62;
+  	margin-top: 5%;
+}
+
+#aboutme {
+	background-color: #B2DBD5;
+	color: #2B616D;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: solid 5px #FA8D62;
+	border-radius: 25px;
+}
+
+#portfolio {
+	background-color: #B2DBD5;
+	color: #2B616D;
+	margin-bottom: 10%;
+	border: solid 5px #FA8D62;
+	border-radius: 25px;
+}
+
+#contact {
+	background-color: #B2DBD5;
+	color: #2B616D;
+	border: solid 5px #FA8D62;
+	border-radius: 25px;
+}
+
+.thumbnail {
+	background-color: #2B616D;
+	border: solid #2B616D;
+	border-radius: 25px;
+}
+
+img {
+	border-radius: 25px;
+}
+
+#thumbnail {
+  position: relative;
+  float: left;
+  width: 260px;
+  margin: 20px 9px 25px;
+  overflow: hidden;
+
+}
+
+#thumbnail:nth-child(even) {
+  margin-right: 40px;
+}
+
+#thumbnail img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+#thumbnail h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 260px;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+#emily {
+
+}
+
+@media screen and (max-width: 960px) {
+	#navbar {
+		position: static;
+	}
+
+	#logo {
+		width: 100%;
+		text-align: center;
+	}
+
+	li {
+		float: left;
+		width: 33%;
+		text-align: center;
+	}
+
+	h4 {
+		right: 35px;
+	}
+
+	#connect
+	#aboutme, #porfolio {
+		margin: 2%;
+	}
+	
+
+
+}
+
+@media screen and (max-width: 768px) {
+	#navbar {
+		position: static;
+	}
+
+	#logo {
+		width: 100%;
+		text-align: center;
+	}
+
+	li {
+		float: left;
+		width: 33%;
+		text-align: center;
+				
+	}
+
+	h4 {
+		right: 35px;
+	}
+
+	#connect
+	#aboutme, #porfolio {
+		margin: 2%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#navbar {
+		position: static;
+	}
+
+	#logo {
+		width: 100%;
+		text-align: center;
+	}
+
+	li {
+		float: left;
+		width: 33%;
+		text-align: center;	
+	}
+
+	h4 {
+		right: 35px;
+	}
+
+	#connect
+	#aboutme, #porfolio {
+		margin: 2%;
+	}
+
+	.
+}
+
